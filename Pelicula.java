@@ -2,34 +2,34 @@ package Netflix;
 
 public class Pelicula extends Audiovisual implements Visualizable {
 
-    private int año;
+    private int ano;
 
-    //Constructor vacío
+    //Constructor vacio
     public Pelicula() {
-        this.año = 1900;//referencia 1900 como inicio de creación de peliculas
+        this.ano = 1900;//referencia 1900 como inicio de creación de peliculas
     }
     //Constructor titulo + creador
     public Pelicula(String titulo, String creador) {
         super(titulo, creador);
     }
     //Constructor completo
-    public Pelicula(String titulo, String genero, String creador, int duracion, int año) {
+    public Pelicula(String titulo, String genero, String creador, int duracion, int ano) {
         super(titulo, genero, creador, duracion);
-        this.año = año;
+        this.ano = ano;
     }
 
-    public int getAño() {
-        return año;
+    public int getAno() {
+        return ano;
     }
 
-    public void setAño(int año) {
-        this.año = año;
+    public void setAno(int ano) {
+        this.ano = ano;
     }
 
     @Override
     public String toString() {
         return super.toString()+'\''+
-                "año='" + año  ;
+                "ano='" + ano  ;
     }
 
     @Override

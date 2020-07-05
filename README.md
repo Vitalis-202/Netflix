@@ -1,7 +1,14 @@
 # Proyecto Netflix
 ### Curso "Programando con Java para aplicaciones Android"Curso "Programando con Java para aplicaciones Android"
+### V 2.0
+### Instrucciones
+
+- Utiliza el programa anterior para implementar la clase ArrayList en lugar de manejar el Arreglo de Objetos.
+- Analiza el programa para cachar posibles eventos inesperados que pudieran ocurrir durante el programa e implementa las Excepciones necesarias.
+- Que tu programa corra adecuadamente.
+
 ### V 1.0
-### Instrucciones****
+### Instrucciones
 Desarrollar un código de Java siguiendo los pasos a continuación:
 
 1. Crea una clase llamada Pelicula con las siguientes características:
@@ -43,3 +50,4 @@ Desarrollar un código de Java siguiendo los pasos a continuación:
 - Marca en visto algunas Películas y Series con el método marcarVisto()
 - Muestra una lista de las Películas y Series que se visualizaron y un detalle de los minutos/segundos visualizados.
 - Por último, indica la serie con más temporadas y la película del año más reciente. Muéstralos en pantalla con toda su información (usa el método toString()).
+
